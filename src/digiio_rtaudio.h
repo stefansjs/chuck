@@ -31,6 +31,15 @@
 // RtAudio by: Gary Scavone
 // date: Spring 2004
 //-----------------------------------------------------------------------------
+
+/** Update for Android builld.
+	
+	I'm hijacking this class to replace it's guts with an OpenSL ES implementation
+	so that I can build ChucK to run on Android. Woo Hoo!
+
+	author: Stefan Sullivan (stefan.sullivan@gmail.com
+*/
+
 #ifndef __DIGITAL_IO_H__
 #define __DIGITAL_IO_H__
 
